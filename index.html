@@ -5,16 +5,28 @@
 
 <head>
     <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--Bootstap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
     <!-- css link (placed after bootrapt to override) -->
-    <link rel="stylesheet" href="../bootstrap-portfolio/css/style.css">
-    <title>Ffion Burke's bootsrap portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<title>Ffion Burke's bootsrap portfolio</title>
 
-    
+<!-- Custom fonts for this template -->
+<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
 
 </head>
 
@@ -24,7 +36,8 @@
         <nav class="my-2 my-md-0 mr-md-3">
             <a class="p-2 text-dark" href="#work">Work</a>
             <a class="p-2 text-dark" href="#skills">Skills</a>
-            <a class="p-2 text-dark" href="#contact">Contact</a>
+            <a class="p-2 text-dark" href="#contact">Contact Me</a>
+            <a class="p-2 text-dark" href="#about">About Me</a>
         </nav>
     </header>
 
@@ -53,10 +66,12 @@
                     <img src="images/10+tips+for+successful+studying+3+OP.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Prework study guide</h5>
-                        <p class="card-text">I created a study guide for the bootcamp using HTML and
+                        <p class="card-text">I created a study guide for the students undertaking the bootcamp using
+                            HTML and
                             CSS.
                         </p>
-                        <a href="https://ffionerin.github.io/prework-study-guide/" class="btn btn-primary">Go to app</a>
+                        <a href="https://ffionerin.github.io/prework-study-guide/" class="btn btn-secondary">Go to
+                            app</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +81,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Portfolio using CSS grid</h5>
                         <p class="card-text">A version of this portofolio built without bootstrap using a CSS grid.</p>
-                        <a href="https://ffionerin.github.io/my-portfolio/" class="btn btn-primary">Go to app</a>
+                        <a href="https://ffionerin.github.io/my-portfolio/" class="btn btn-secondary">Go to app</a>
                     </div>
                 </div>
             </div>
@@ -78,7 +93,7 @@
                         <p class="card-text">Coming soon! This is a placeholder for a future project I'll be
                             undertaking.
                         </p>
-                        <a href="http://www.google.co.uk" class="btn btn-primary">Go to app</a>
+                        <a href="http://www.google.co.uk" class="btn btn-secondary">Go to app</a>
                     </div>
                 </div>
             </div>
@@ -90,7 +105,7 @@
                         <p class="card-text">Coming soon! This is a placeholder for a future project I'll be
                             undertaking.
                         </p>
-                        <a href="http://www.google.co.uk" class="btn btn-primary">Go to app</a>
+                        <a href="http://www.google.co.uk" class="btn btn-secondary">Go to app</a>
                     </div>
                 </div>
             </div>
@@ -102,7 +117,7 @@
                         <p class="card-text">Coming soon! This is a placeholder for a future project I'll be
                             undertaking.
                         </p>
-                        <a href="http://www.google.co.uk" class="btn btn-primary">Go to app</a>
+                        <a href="http://www.google.co.uk" class="btn btn-secondary">Go to app</a>
                     </div>
                 </div>
             </div>
@@ -114,7 +129,7 @@
                         <p class="card-text">Coming soon! This is a placeholder for a future project I'll be
                             undertaking.
                         </p>
-                        <a href="http://www.google.co.uk" class="btn btn-primary">Go to app</a>
+                        <a href="http://www.google.co.uk" class="btn btn-secondary">Go to app</a>
                     </div>
                 </div>
             </div>
@@ -125,20 +140,14 @@
         <div class="cardContainer">
             <div class="card text-center bg-dark text-white">
                 <div class="card-body">
-
-                    
-
                     <div class="row">
-                        <div class="col-lg-4 col-md-3">
-                            <img class="shadow-4-strong rounded-circle img.fluid"
-                                src="images/skills.jpg">
+                        <div class="col-lg-4 col-md-4">
+                            <img class="shadow-4-strong rounded-circle img-fluid" src="images/skills.jpg">
                         </div>
-                        <div class="col-lg-8 col-md-9 text-white">
+                        <div class="col-lg-8 col-md-8 text-white">
                             <h2 class="card-title">Skills</h2>
-                            <p class="card-text text-center"> I am currently undertaking a bootcamp in frontend development. By the
-                                end
-                                of
-                                bootcamp, I am hoping to able to:</p>
+                            <p class="card-text text-center"> I am currently undertaking a bootcamp in frontend
+                                development. By the end of the bootcamp, I am hoping to able to:</p>
                             <ul class="list-group list-group-flush text-dark">
                                 <li class="list-group-item">Create applications using HTML, CSS and JavaScript</li>
                                 <li class="list-group-item">Create page layours using UX design princirples</li>
@@ -149,21 +158,74 @@
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
-
     </section>
 
-    <footer id=#contact>
-        <div class="social d-flex justify-content-center">
-            <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-            <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-            <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+    <section class="container">
+        <div class="row">
+            <div class="cardContainer col-sm-12 col-md-6 col-lg-6 col d-flex justify-content-center">
+                <div class="card shadow-lg" id="about" style="width: 30rem">
+                    <div class="card-body">
+                        <h5 class="card-title">About Me</h5>
+                        <p class="card-text">My name is Ffion and I am from Wales. I have recently begun a coping
+                            bootcamp in
+                            front-end development</p>
+                        <p class="card-text">I'm interested in a career in software development as I like
+                            problem-solving and
+                            think it would be challenging but satisfying. Thank you for visiting my page.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cardContainer col-sm-12 col-md-6 col-lg-6 col d-flex justify-content-center">
+                <div class="card shadow-lg" id="contact" style="width: 30rem">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact Me</h5>
+                        <p class="card-text">Use the links below to get in touch!
+                        </p>
+                        <div class="text-center">
+                            <a class="text-dark" href="https://ffionerin.github.io/my-portfolio/">Email Me</a>
+                            <br> <br>
+                            <a class="text-dark" href="tel:+447793075722">Phone Me</a>
+                            <br> <br>
+                            <a class="text-dark" href="https://ffionerin.github.io/my-portfolio/">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <footer class="text-center text-white bg-dark">
+        <div class="container">
+            <button class="btn btn-secondary"><a href="https://www.facebook.com/ffionb1/" class="me-4 text-dark">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </button>
+
+
+            <button class="btn btn-secondary"><a href="https://twitter.com/ffion_erin" class="me-4 text-dark">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </button>
+
+            <button class="btn btn-secondary"><a href="https://www.linkedin.com/in/ffion-burke-a205a9107/"
+                    class="me-4 text-dark">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </button>
+
+
+            <button class="btn btn-secondary"><a href="https://github.com/ffionerin" class="me-4 text-dark">
+                    <i class="fab fa-github"></i>
+                </a> </button>
+        </div>
+        <div class="container">
+            <p>Website made by Ffion Burke 2022</p>
         </div>
     </footer>
+    <!-- Footer -->
+
 
 </body>
 
@@ -171,10 +233,5 @@
 
 
 </html>
-
-<!-- skills section -->
-
-
-<!-- <-- about/contact section  -->
 
 <!-- footer with hyperlinks having a hover effect and buttons having a shadow upon hover -->
