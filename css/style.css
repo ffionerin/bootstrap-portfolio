@@ -22,3 +22,6 @@
 
   #skills .row {align-items: center;}
   #skills img {width: 100%;}
+
+
+  /* add media query here so that skills image disapperas on small screen */
